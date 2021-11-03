@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+   selector: 'app-root',
+   template: `
+				<app-observable></app-observable>
+				<app-promise></app-promise>
+             `
 })
-export class AppComponent {
-  title = 'angular-http-teste';
+export class AppComponent { 
 }
+    
